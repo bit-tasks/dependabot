@@ -11,7 +11,7 @@ Below are the steps to set up Dependabot for your Bit project.
 ## Step 1: Set Up Dependabot Secret
 
 1. Go to the "Settings" section in your repository.
-2. Create a secret named `BIT_CONFIG_USER_TOKEN` under "Secrets and variables" -> "Dependabot". The value for this secret, use a [Bit token](https://bit.dev/reference/config/bit-config/#user.token) with the right permission level.
+2. Create a secret named `BIT_CONFIG_USER_TOKEN` under "Secrets and variables" -> "Dependabot" and for the value use [Bit token](https://bit.dev/reference/config/bit-config/#user.token) with the right permission level.
 
 ## Step 2: Configure Dependabot for Bit
 
