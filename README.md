@@ -49,4 +49,4 @@ registry=https://registry.npmjs.org/
 
 **Note:** The above configuration includes packages from `@showoff` [Bit org](https://bit.cloud/showoff).
 
-By following these steps and configurations, you'll have Dependabot set up to automatically handle newer versions of Bit Component dependencies in your project. This will help you keep your project up-to-date with the latest dependencies and security fixes.
+By following these steps and configurations, you'll have Dependabot set up to automatically handle your project's newer versions of Bit Component dependencies.
