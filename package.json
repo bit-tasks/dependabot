@@ -7,7 +7,7 @@
       "@showoff/design.navigation.breadcrumb": "0.0.39",
       "@showoff/design.navigation.link-text": "0.0.47",
       "@showoff/design.typography.typography": "0.0.36",
-      "@showoff/personal-portfolio.layouts.main": "0.0.52",
+      "@showoff/personal-portfolio.layouts.main": "0.0.53",
       "@showoff/personal-portfolio.ui.social.icons": "0.0.16"
     },
     "peerDependencies": {
