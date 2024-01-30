@@ -11,7 +11,7 @@ Below are the steps to set up Dependabot for your Bit project.
 ## Step 1: Set Up Dependabot Secret
 
 1. Go to the "Settings" section in your repository.
-2. Create a secret named `BIT_CONFIG_USER_TOKEN` under "Secrets and variables" -> "Dependabot" and for the value use a [Bit token](https://bit.dev/reference/config/bit-config/#user.token) with the right permission level.
+2. Create a secret named `BIT_CLOUD_ACCESS_TOKEN` under "Secrets and variables" -> "Dependabot" and for the value use an [Bit cloud access token](https://bit.dev/reference/ci/github-actions#generating-an-access-token) with the right permission level.
 
 ## Step 2: Configure Dependabot for Bit
 
@@ -43,7 +43,7 @@ registry=https://registry.npmjs.org/
 @showoff:registry=https://node-registry.bit.cloud
 @bit:registry=https://node.bit.cloud
 @teambit:registry=https://node-registry.bit.cloud
-//node.bit.cloud/:_authToken=${BIT_CONFIG_USER_TOKEN}
+//node.bit.cloud/:_authToken=${BIT_CLOUD_ACCESS_TOKEN}
 ```
 
 **Note:** The above configuration includes packages from `@showoff` [Bit org](https://bit.cloud/showoff).
